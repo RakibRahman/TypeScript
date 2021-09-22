@@ -11,7 +11,17 @@ const meal = {
   getName: function () {
     setTimeout(() => {
       console.log(this.name);
-    }, 100);
+    }, 10);
   },
 };
 console.log(meal.getName());
+
+const person = {
+  name: "Zakir",
+  age: 36,
+};
+const job = ["developer"];
+const info = { person, job };
+console.log(info.person);
+console.log(info.person.age);
+console.log(info.job);
