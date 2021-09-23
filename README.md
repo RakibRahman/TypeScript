@@ -6,7 +6,8 @@ Topic List:
 </summary>
 
 - Type.ts > Primitive types
-- TS_Type.ts > TS types : Any,Void,Never,strictNullChecks
-- TS_Type-V2.ts > TS types : Union types,Function Type,Optional Arguments
+- TS_Type.ts > Any,Void,Never,strictNullChecks
+- TS_Type-V2.ts > Union types,Function Type,Optional Arguments,Default Parameters
+- TS_Type-V3.ts > Object Types, Array Types,Generics,Tuples Types
 
 </details>

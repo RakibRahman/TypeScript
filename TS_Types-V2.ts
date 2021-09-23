@@ -26,9 +26,11 @@ console.log(`Total Sum: ${sum}`);
 //! Optional Arguments
 
 let finalCost: (price: number, quantity?: number) => number;
-finalCost = (a, b) => {
-  if (b) return a * b;
-  return a;
+finalCost = (a, b = 1) => {
+  //? Without default parameters
+  //   if (b) return a * b;
+  //   return a;
+  return a * b;
 };
 const finalSum = finalCost(96);
 console.log(finalSum);
