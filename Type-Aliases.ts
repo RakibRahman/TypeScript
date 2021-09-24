@@ -1,4 +1,4 @@
-let ballSize: "small" | "medium" | "large" = "small";
+let ballSize: "small" | "medium" | "large" = "small"; //union type
 console.log(ballSize);
 
 const selectBall = (size: "small" | "medium" | "large") => {
