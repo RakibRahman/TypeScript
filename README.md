@@ -13,5 +13,6 @@ Topic List:
 - Type_Assertions.ts > Type Assertions
 - Enum.ts > Enum
 - Interface.ts > Interface
+- Interface-with-Fn.ts > Interfaces with Function Types,Extending Interfaces,Index Signature
 
 </details>
