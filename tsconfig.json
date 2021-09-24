@@ -4,6 +4,6 @@
     "module": "commonjs",
     "sourceMap": false,
     "outDir": "dist",
-    "strict": false
+    "strict": true
   }
 }

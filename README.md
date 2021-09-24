@@ -14,6 +14,6 @@ Topic List:
 - Enum.ts > Enum
 - Interface.ts > Interface
 - Interface-with-Fn.ts > Interfaces with Function Types,
-- Class.ts > Classes,Constructors
+- Class.ts > Classes,Constructors,Private,Public & ReadOnly Members
 
 </details>
