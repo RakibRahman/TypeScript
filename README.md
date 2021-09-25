@@ -19,5 +19,5 @@ Topic List:
 - Getter-Setter.ts > Getter,Setter in Class
 - Inheritance.ts > Inheritance,Abstract Class
 - Implement.ts > Implement keyword ,interface & class
-
+- Static-Props-Methods.ts > Static Properties and Methods
 </details>
