@@ -14,6 +14,9 @@ Topic List:
 - Enum.ts > Enum
 - Interface.ts > Interface
 - Interface-with-Fn.ts > Interfaces with Function Types,Optional Properties
+- Index_Signature.ts > Index Signature
 - Class.ts > Classes,Constructors,Private,Public & ReadOnly Members
+- Getter-Setter.ts > Getter,Setter in Class
+- Inheritance.ts > Classes and Inheritance
 
 </details>
