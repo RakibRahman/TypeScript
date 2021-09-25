@@ -18,5 +18,6 @@ Topic List:
 - Class.ts > Classes,Constructors,Private,Public & ReadOnly Members
 - Getter-Setter.ts > Getter,Setter in Class
 - Inheritance.ts > Inheritance,Abstract Class
+- Implement.ts > Implement keyword ,interface & class
 
 </details>
