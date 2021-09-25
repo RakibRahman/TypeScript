@@ -6,8 +6,8 @@ interface Genres {
 interface Games extends Genres {
   name: string;
   getGenres(): string[];
-  year?: number;
-  [key: number]: string;
+  year?: number; //Optional Properties
+  [key: number]: string; //index signature
 }
 // with type
 // type getGenres = () => string[];

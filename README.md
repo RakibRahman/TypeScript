@@ -13,7 +13,7 @@ Topic List:
 - Type_Assertions.ts > Type Assertions
 - Enum.ts > Enum
 - Interface.ts > Interface
-- Interface-with-Fn.ts > Interfaces with Function Types,
+- Interface-with-Fn.ts > Interfaces with Function Types,Optional Properties
 - Class.ts > Classes,Constructors,Private,Public & ReadOnly Members
 
 </details>
