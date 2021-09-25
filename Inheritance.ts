@@ -1,34 +1,27 @@
-class Hobbies {
-  constructor(public hobbies: string[]) {}
+//! Abstract Class
+// Abstract keyword will prevent intance creation of a class
+//Won't invoke the class,only for extending
+abstract class Interest {
+  constructor(public interest: string[]) {}
 
-  set hobbyList(hobbies: string[]) {
-    this.hobbies = hobbies;
+  set interestList(interest: string[]) {
+    this.interest = interest;
   }
-  get hobbyList() {
-    return this.hobbies;
+  get interestList() {
+    return this.interest;
   }
 }
-const hobbies = new Hobbies(["playing games", "reading books"]);
-//invoke getter
-console.log(hobbies.hobbyList);
-//invoke setter
-hobbies.hobbyList = ["sleeping", "coding"];
-console.log(hobbies);
-class Person {
+
+//! Inheritance
+class Ninja extends Interest {
   public skills: string[] = [];
-  constructor(public name: string) {}
+  constructor(public name: string, public interest: string[]) {
+    super(interest);
+  }
   public addSkill(skill: string) {
     this.skills.push(skill);
   }
 }
-
-const Minato = new Person("Minato Namikaze");
-console.log(Minato.name);
-Minato.addSkill("Teleportation");
-Minato.addSkill("Sealing Jutsus");
-Minato.addSkill("Sage mode");
-
-const skillSet = Minato.skills;
-for (let skill of skillSet) {
-  console.log(skill);
-}
+const minato = new Ninja("Minato", ["flying rajin", "sage mode"]);
+minato.addSkill("sealing Jutsus");
+console.log(minato.interest);

@@ -17,6 +17,6 @@ Topic List:
 - Index_Signature.ts > Index Signature
 - Class.ts > Classes,Constructors,Private,Public & ReadOnly Members
 - Getter-Setter.ts > Getter,Setter in Class
-- Inheritance.ts > Classes and Inheritance
+- Inheritance.ts > Inheritance,Abstract Class
 
 </details>
