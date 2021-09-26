@@ -18,3 +18,17 @@ const ballSelect: Callback = (x) => {
 };
 ballSelect("large");
 console.log(ballSize);
+
+const calculatePrice = (quantity: 1 | 2, price: number): number => {
+  return quantity * price;
+};
+
+let totalPrice = calculatePrice(2, 19);
+// let totalPrice = calculatePrice(3, 19);
+console.log(totalPrice);
+
+type numVals = 1 | 2 | 3 | 4;
+function getRandomValue(): numVals {
+  return (Math.floor(Math.random() * 4) + 1) as numVals;
+}
+console.log(getRandomValue());
