@@ -46,12 +46,13 @@ numArray.push(50); //OK
 strArray.push("push"); //OK
 // strArray.push(50); // Compiler Error
 
-//! Generic Interface
+const identify = <T>(arg: T): T => {
+  return arg;
+};
+const stringValue = identify("string value returns");
+console.log(stringValue);
 
-interface IProcessor<T> {
-  result: T;
-  process(a: T, b: T): T;
-}
+//! Generic Interface
 
 interface KeyPair<T, U> {
   key: T;
