@@ -41,7 +41,10 @@ const calculateVat = (amount: number, format: boolean): string | number => {
 //type Assertion
 let vatNumber = calculateVat(500, false) as number;
 let vatString = calculateVat(300, true) as string;
+// Alternative syntax:
+let vatNumber2 = <number>calculateVat(200, false);
 console.log(`Number vat: ${vatNumber}`);
 console.log(`String vat: ${vatString}`);
+console.log(`Number vat: ${vatNumber2}`);
 
 // let taxBoolean = calculateVat(100, false) as boolean;
