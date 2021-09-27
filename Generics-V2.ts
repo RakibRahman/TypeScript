@@ -42,3 +42,11 @@ let productData = new DataCollection<Product>(products);
 let firstProduct = productData.getItem(0);
 productData.add(new Product("Motorola", 9630));
 console.log(`First Product: ${firstProduct.name}, ${firstProduct.price}`);
+
+//Example 2
+function returnMe<T>(arg: T): T {
+  return arg;
+}
+const returnStr = returnMe<string>("rakib");
+const returnNum = returnMe<number>(20);
+console.log(returnNum);
