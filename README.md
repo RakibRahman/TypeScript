@@ -22,5 +22,6 @@ Topic List:
 - Implement.ts > Implement keyword ,interface & class
 - Static-Props-Methods.ts > Static Properties and Methods
 - Generics.ts > Generics Classes,Generics Interface
+- Generics-V2.ts > class with generics
 - Function-Overload.ts > Function Overloading
 </details>
