@@ -2,7 +2,7 @@
 
 <details> 
 <summary>
-Topic List:
+Topics:
 </summary>
 
 - Type.ts > Primitive types
@@ -24,4 +24,10 @@ Topic List:
 - Generics.ts > Generics Classes,Generics Interface
 - Generics-V2.ts > class with generics
 - Function-Overload.ts > Function Overloading
+</details>
+
+<details>
+<summary> Object</summary>
+
+- getDeepObjValue() > access obj value (`keyof` & `extends` )
 </details>
