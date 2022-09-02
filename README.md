@@ -24,10 +24,12 @@ Topics:
 - Generics.ts > Generics Classes,Generics Interface
 - Generics-V2.ts > class with generics
 - Function-Overload.ts > Function Overloading
+- ConditionalTypes.ts > Conditional Types example(Generic,extends)
+- KeyOf.ts >The keyof type operator Example
 </details>
 
 <details>
 <summary> Object</summary>
 
-- getDeepObjValue() > access obj value (`keyof` & `extends` )
+- getDeepObjValue() > access obj value (`keyof`,`extends`, `index signature`)
 </details>

@@ -4,6 +4,7 @@
     "module": "commonjs",
     "sourceMap": false,
     "outDir": "dist",
-    "strict": true
+    "strict": true,
+    "lib": ["esnext", "dom"]
   }
 }
