@@ -26,6 +26,7 @@ Topics:
 - Function-Overload.ts > Function Overloading
 - ConditionalTypes.ts > Conditional Types example(Generic,extends)
 - KeyOf.ts >The keyof type operator Example
+- Union-Type.ts > Union Type & Discriminating union type Example
 </details>
 
 <details>
