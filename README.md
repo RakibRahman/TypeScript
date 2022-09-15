@@ -27,10 +27,20 @@ Topics:
 - ConditionalTypes.ts > Conditional Types example(Generic,extends)
 - KeyOf.ts >The keyof type operator Example
 - Union-Type.ts > Union Type & Discriminating union type Example
+- RecordType.ts > Record Type type Example
+- MappedType.ts > Mapped Type example,type transforming
 </details>
 
 <details>
 <summary> Object</summary>
 
 - getDeepObjValue() > access obj value (`keyof`,`extends`, `index signature`)
+</details>
+
+<summary> Utility Types</summary>
+- Pick.ts > Pick by values,Pick by keys,mapped type
+- Partial.ts > Partial utility type examples
+</details>
+
+<summary>Function</summary>
 </details>

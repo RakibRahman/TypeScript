@@ -1,5 +1,5 @@
 //! Abstract Class
-// Abstract keyword will prevent intance creation of a class
+// Abstract keyword will prevent instance creation of a class
 //Won't invoke the class,only for extending
 abstract class Interest {
   constructor(public interest: string[]) {}

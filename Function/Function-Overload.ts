@@ -1,3 +1,5 @@
+//? Function Overloading => Use when you are aware of the argument types and the return type does change depending on the argument types;
+
 function add(a: string, b: string): string;
 
 function add(a: number, b: number): number;
