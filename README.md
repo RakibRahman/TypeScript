@@ -40,7 +40,8 @@ Topics:
 <summary> Utility Types</summary>
 - Pick.ts > Pick by values,Pick by keys,mapped type
 - Partial.ts > Partial utility type examples
-- Omit.ts > Omit utility type examples
+- Omit.ts > Custom omit utility
+- Readonly.ts > Custom readonly type utility
 </details>
 
 <summary>Function</summary>

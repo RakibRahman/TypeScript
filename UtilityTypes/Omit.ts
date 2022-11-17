@@ -1,4 +1,3 @@
-import { Myself } from "./models";
-
-
-type GetOnlyName = Omit<Myself, "age" | "division" | "hometown">;
+type OMIT<Type, Keys> = {
+  [P in keyof Type as P extends Keys ? never : P]: Type[P]
+}
