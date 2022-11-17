@@ -17,3 +17,13 @@ interface Letters {
 }
 
 type LetterAsUnion = Letters[keyof Letters];
+
+
+const key: keyof { a: string; b: string } = 'a'
+
+
+// Type restriction using extends
+type GetKeys<T extends { a: string; b: string }> = keyof T
+
+const keyofExample1: GetKeys<{ a: string, b: string }> = 'a'
+// const keyofExample2: GetKeys<[1, 2]> = 'a' //wont compile

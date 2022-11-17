@@ -31,3 +31,7 @@ const features: FeatureToggles = Object.freeze({
   user: { name: "Amet.Elit.User", enabled: false },
   time: { name: "Etiam.Neque.Time", enabled: true },
 });
+
+//! Check for an empty object
+
+type IsEmpty<T> = T extends Record<string, never> ? true : false;

@@ -25,7 +25,7 @@ Topics:
 - Generics-V2.ts > class with generics
 - Function-Overload.ts > Function Overloading
 - ConditionalTypes.ts > Conditional Types example(Generic,extends)
-- KeyOf.ts >The keyof type operator Example
+- KeyOf.ts >The keyof type operator Example,Type restriction using extends
 - Union-Type.ts > Union Type & Discriminating union type Example
 - RecordType.ts > Record Type type Example
 - MappedType.ts > Mapped Type example,type transforming
@@ -40,6 +40,7 @@ Topics:
 <summary> Utility Types</summary>
 - Pick.ts > Pick by values,Pick by keys,mapped type
 - Partial.ts > Partial utility type examples
+- Omit.ts > Omit utility type examples
 </details>
 
 <summary>Function</summary>
